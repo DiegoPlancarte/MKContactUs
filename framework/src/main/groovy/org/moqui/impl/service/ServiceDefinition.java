@@ -512,7 +512,7 @@ public class ServiceDefinition {
                         }
                     }
 
-                    // check against validation sub-elements (do this after the convert so we can deal with objects when needed)
+                    // check against  sub-elements (do this after the convert so we can deal with objects when needed)
                     if (parameterInfo.validationNodeList != null) {
                         int valListSize = parameterInfo.validationNodeList.size();
                         for (int valIdx = 0; valIdx < valListSize; valIdx++) {
